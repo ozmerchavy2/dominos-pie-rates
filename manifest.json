@@ -12,12 +12,9 @@
         
     },
     "host_permissions": [
-        "https://*.dominos/*"
+        "https://*.dominos/*",
+        "https://dominos/*"
     ],
-    "optional_host_permissions": [
-        "*://*/*"
-    ],
-  
 
     "icons": {
         "32": "media/32.ico",
