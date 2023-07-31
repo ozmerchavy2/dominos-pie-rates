@@ -258,18 +258,13 @@ const css = `
 const startTime = Date.now();
 const timeout = 10000; 
 
-
+let n = 0
 function checkForCouponContainer() {
-    if (document.querySelector(".local-coupon"))  {
+  document.title = "working on it " + n
+  n++
+    if (document.querySelector(".local-coupon") && !document.querySelector(".flip-card"))  {
       main();
     } 
-    else if (!(document.querySelector(".flip-card"))) { // not else, in case main failed
-      const currentTime = Date.now();
-      if (currentTime - startTime < timeout) {
-         setTimeout(checkForCouponContainer, 1000); 
-      }
-    }
   }
 
-  checkForCouponContainer();
-
+setInterval(checkForCouponContainer, 300)
