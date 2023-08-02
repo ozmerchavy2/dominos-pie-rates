@@ -1,4 +1,4 @@
-const sizesToDiameterInches = {
+var sizesToDiameterInches = {
   Small: 10,
   Medium: 12,
   Large: 14,

@@ -1,7 +1,7 @@
 {
     "name": "Dominos Pie-Rates",
     "description": "Discover pizza savings with Pie-rates: Dominos coupon per-inch calculator!",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "manifest_version": 3,
     "permissions": [
         "scripting", 
@@ -12,8 +12,10 @@
         
     },
     "host_permissions": [
-        "https://*.dominos/*",
-        "https://dominos/*"
+        "https://*.dominos.ca/*",
+        "https://*.dominos.com/*",
+        "https://dominos.ca/*",
+        "https://dominos.com/*"
     ],
 
     "icons": {

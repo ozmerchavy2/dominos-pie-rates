@@ -1,4 +1,7 @@
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+  if (!tab || !tab.url){
+    return
+  }
     if (tab.url.includes('dominos.ca') || tab.url.includes('dominos.com')) {
       if (tab.title.toLowerCase().includes('coupons')) {
         chrome.scripting.executeScript({
