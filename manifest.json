@@ -1,7 +1,7 @@
 {
     "name": "Dominos Pie-Rates",
     "description": "Discover pizza savings with Pie-rates: Dominos coupon per-inch calculator!",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "manifest_version": 3,
     "permissions": [
         "scripting", 
@@ -21,8 +21,7 @@
     "icons": {
         "32": "media/32.ico",
         "64": "media/64.ico",
-        "128": "media/128.ico",
-        "512": "media/512.ico"
+        "128": "media/128.ico"
       }
 
 
